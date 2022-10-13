@@ -1,0 +1,497 @@
+% Encoding: UTF-8
+
+@Article{Eder21a,
+  title = {{I}mplementing {S}traight {S}keletons with {E}xact {A}rithmetic: {C}hallenges and {E}xperiences},
+  journal = {Computational Geometry},
+  volume = {96},
+  pages = {101760},
+  year = {2021},
+  issn = {0925-7721},
+  doi = {https://doi.org/10.1016/j.comgeo.2021.101760},
+  url = {https://www.sciencedirect.com/science/article/pii/S092577212100016X},
+  author = {Günther Eder and Martin Held and Peter Palfrader},
+  keywords = {Straight skeleton, Weighted, Implementation, Experiments, CGAL},
+  abstract = {We present Cgal implementations of two algorithms for computing straight skeletons in the plane, based on exact arithmetic. One code, named Surfer2, can handle multiplicatively weighted planar straight-line graphs (PSLGs) while our second code, Monos, is specifically targeted at monotone polygons. Both codes are available on GitHub. We discuss algorithmic as well as implementational and engineering details of both codes. Furthermore, we present the results of an extensive performance evaluation in which we compared Surfer2 and Monos to the straight-skeleton package included in Cgal. It is not surprising that our special-purpose code Monos outperforms Cgal's straight-skeleton implementation. But our tests provide ample evidence that also Surfer2 can be expected to be faster and to consume significantly less memory than the Cgal code. And, of course, Surfer2 is more versatile because it can handle multiplicative weights and general PSLGs as input. Thus, Surfer2 currently is the fastest and most general straight-skeleton code available.},
+  www_selected = {1}
+}
+
+@inproceedings{Ede&20c,
+ author = {Günther Eder and Martin Held and Stefan de Lorenzo and Peter Palfrader},
+ title = {{Computing Low-Cost Convex Partitions for Planar Point Sets Based on Tailored Decompositions (CG Challenge)}},
+ booktitle = {36th International Symposium on Computational Geometry (SoCG 2020)},
+ pages = {85:1--85:11},
+ series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+ ISBN = {978-3-95977-143-6},
+ ISSN = {1868-8969},
+ year = {2020},
+ volume = {164},
+ editor = {Sergio Cabello and Danny Z. Chen},
+ publisher = {Schloss Dagstuhl--Leibniz-Zentrum für Informatik},
+ address = {Dagstuhl, Germany},
+ URL = {https://drops.dagstuhl.de/opus/volltexte/2020/12243},
+ URN = {urn:nbn:de:0030-drops-122438},
+ doi = {10.4230/LIPIcs.SoCG.2020.85},
+ annote = {Keywords: Computational Geometry, geometric optimization, algorithm engineering, convex decomposition},
+ abstract = {Our work on minimum convex decompositions is based on two key components: (1) different strategies for computing initial decompositions, partly adapted to the characteristics of the input data, and (2) local optimizations for reducing the number of convex faces of a decomposition. We discuss our main heuristics and show how they helped to reduce the face count.},
+  www_links = {Paper (PDF): https://geder.at/research/2021/2021 - Computing Low-Cost Convex Partitions.pdf},
+  www_selected = {1}
+}
+
+@Article{Ede20b,
+  title        = {{S}alzburg {D}atabase of {P}olygonal {D}ata: {P}olygons and {T}heir {G}enerators},
+  journal      = {Data in Brief},
+  pages        = {105984},
+  year         = {2020},
+  issn         = {2352-3409},
+  doi          = {https://doi.org/10.1016/j.dib.2020.105984},
+  owner        = {gue},
+  timestamp    = {2020-07-08},
+  url = {http://www.sciencedirect.com/science/article/pii/S2352340920308787},
+  author = {Günther Eder and Martin Held and Steinpór Jasonarson and Philipp Mayer and Peter Palfrader},
+  keywords = {Polygons, generators, database, pseudo-random, monotone, star-shaped},
+  abstract = {The Salzburg Database is a repository of polygonal areas of various classes and sizes, with and without holes. Positive weights are assigned to all edges of all polygons. We introduce this collection and describe the generators that produced its polygons. The source codes for all generators as well as the polygons generated are publicly available.},
+  www_selected = {1},
+}
+
+@PhdThesis{Eder19,
+  author       = {Günther Eder},
+  title        = {{C}omputation and {R}ecognition of {W}eighted {S}keletal {S}tructures in the {P}lane},
+  school       = {University of Salzburg},
+  year         = {2019},
+  address      = {Salzburg, Austria},
+  month        = {July},
+  owner        = {gue},
+  timestamp    = {2019-07-11},
+  url          = {https://geder.at/research/2019/geder-phdthesis-short.pdf},
+  www_links    = { thesis abridged (PDF): https://geder.at/research/2019/geder-phdthesis-short.pdf| Defensio (PDF): https://geder.at/research/2019/defensio.pdf},
+  www_selected = {1},
+}
+
+@InProceedings{EdHe17a,
+  Title                    = {{C}omputing {P}ositively {W}eighted {S}traight {S}keletons of {S}imple {P}olygons {U}sing an {I}nduced {L}ine {A}rrangement},
+  Author                   = {Günther Eder and Martin Held},
+  Booktitle                = Proc # { 27th } # EGC # { (EGC 2017)},
+  Year                     = {2017},
+
+  Address                  = {Alicante, Spain},
+  Month                    = jun,
+
+  Abstract                 = {We extend the work by Huber and Held (IJCGA 2012)
+on straight-skeleton computation based on motorcycle graphs to positively
+weighted skeletons. Resorting to a line arrangement induced by the r reflex
+vertices of a simple n-vertex polygon P allows to compute the weighted straight
+skeleton of P in O(n² + r³/k + nr log n) time and O(n + kr) space, for an
+arbitrary positive integer k with 1 ≤ k ≤ r.},
+  File                     = {2017
+Eder, Held - Computing Positively Weighted Straight Skeletons of Simple
+Polygons Using an Induced Line Arrangement, EGC 2017 [EdHe17a] - extended
+abstract.pdf:drafts/2017 Eder, Held - Computing Positively Weighted Straight
+Skeletons of Simple Polygons Using an Induced Line Arrangement, EGC 2017
+[EdHe17a] - extended abstract.pdf:PDF},
+  Owner                    = {geder},
+  Timestamp                = {2017-05-18},
+  Www_links                = {extended abstract (PDF): https://geder.at/research/2017/2017 Eder, Held - Computing Positively Weighted Straight Skeletons of Simple Polygons Using an Induced Line Arrangement, EGC 2017 [EdHe17a] - extended abstract.pdf|
+Book of Abstracts (PDF): https://dmat.ua.es/en/egc17/documentos/book-of-abstracts.pdf|
+EGC 2017: https://dmat.ua.es/en/egc17/ |
+Slides (PDF): https://geder.at/research/2017/2017 Eder, Held - Computing Positively Weighted Straight Skeletons of Simple Polygons Using an Induced Line Arrangement, EGC 2017 [EdHe17a] - SLIDES.pdf},
+  Www_selected             = {1}
+}
+
+@InProceedings{EdeHP16a,
+  Title                    = {{B}isector {G}raphs for {M}in-/{M}ax-{V}olume {R}oofs over {S}imple {P}olygons},
+  Author                   = {Günther Eder and Martin Held and Peter Palfrader},
+  Booktitle                = Proc # { 32st } # EuroCG # { (EuroCG 2016)},
+  Year                     = {2016},
+
+  Address                  = {Lugano, Switzerland},
+  Month                    = mar,
+
+  Abstract                 = {Piecewise-linear terrains (``roofs'') over simple
+polygons were studied by Aichholzer et al. ($1995$) in their work on straight
+skeletons of polygons. We show how to construct a roof over a simple polygon
+that has minimum (or maximum) volume among all roofs that drain water. Such a
+maximum-volume (minimum-volume) roof can have quadratic (maybe cubic, resp.)
+number of facets. Our algorithm for computing such a roof extends the standard
+wavefront propagation known from the theory of straight skeletons by two
+additional events. Both the minimum-volume and the maximum-volume roof of a
+simple polygon with n vertices can be computed in $\mathcal{O}(n^3 \log{} n)$
+time.},
+  File                     = {Eder, Held, Palfrader - Bisector Graphs for Min-Max-Volume Roofs over Simple Polygons, EuroCG 2016 [EderHP16] - extended abstract.pdf:drafts/Eder, Held, Palfrader - Bisector Graphs for Min-Max-Volume Roofs over Simple Polygons, EuroCG 2016 [EderHP16a] - extended abstract.pdf:PDF},
+  Owner                    = {geder},
+  Timestamp                = {2016-02-29},
+  Www_links                = {extended abstract (PDF): https://geder.at/research/2016/Eder, Held, Palfrader - Bisector Graphs for Min-Max-Volume Roofs over Simple Polygons, EuroCG 2016 [EderHP16a] - extended abstract.pdf|
+FF (PDF): https://geder.at/research/2016/Eder, Held, Palfrader - Bisector Graphs for Min-Max-Volume Roofs over Simple Polygons, EuroCG 2016 [EderHP16a] - FF.pdf|
+Slides (PDF): https://geder.at/research/2016/Eder, Held, Palfrader - Bisector Graphs for Min-Max-Volume Roofs over Simple Polygons, EuroCG 2016 [EderHP16a] - SLIDES.pdf|
+EuroCG 2016: http://www.eurocg2016.usi.ch/},
+  Www_selected             = {1}
+}
+
+@InProceedings{EdeHP15a,
+  Title                    = {{E}xperiments on {P}arallel {P}olygon {T}riangulation {U}sing {E}ar {C}lipping},
+  Author                   = {Günther Eder and Martin Held and Peter Palfrader},
+  Booktitle                = Proc # { 31st } # EuroCG # { (EuroCG 2015)},
+  Year                     = {2015},
+
+  Address                  = {Ljubljana, Slovenia},
+  Month                    = mar,
+  Pages                    = {220-223},
+
+  Abstract                 = {We present an experimental study of different strategies for triangulating
+polygons in parallel. As usual, we call three consecutive
+vertices of a polygon an ear if the triangle that is spanned by them is
+completely inside of the polygon. Extensive tests on thousands of sample
+polygons indicate that most polygons have a linear number of ears. This
+experimental result suggests that polygon-triangulation algorithms based on
+ear clipping might be well-suited for parallelization.
+
+We discuss three different on-core approaches to parallelizing
+ear clipping and report on our experimental findings.
+Extensive tests show that the most promising method achieves a speedup by a
+factor of roughly $k$ on a machine with $k$ cores.},
+  File                     = {Eder, Held, Palfrader - Experiments on Parallel Polygon Triangulation Using Ear Clipping, EuroCG 2015 [EdeHP15a] - extended abstract.pdf:drafts/Eder, Held, Palfrader - Experiments on Parallel Polygon Triangulation Using Ear Clipping, EuroCG 2015 [EdeHP15a] - extended abstract.pdf:PDF},
+  Owner                    = {geder},
+  Timestamp                = {2015-02-04},
+  Www_links                = {extended abstract (PDF): https://geder.at/research/2015/Eder, Held, Palfrader - Experiments on Parallel Polygon Triangulation Using Ear Clipping, EuroCG 2015 [EdeHP15a] - extended abstract.pdf|
+EuroCG 2015: http://eurocg15.fri.uni-lj.si/},
+  Www_selected             = {1}
+}
+
+@InProceedings{EdeHP15b,
+  Title                    = {{E}xperiments on {P}arallel {P}olygon {T}riangulation {U}sing {E}ar {C}lipping},
+  Author                   = {Günther Eder and Martin Held and Peter Palfrader},
+  Booktitle                = Proc # { 4th } # YRF # { (CG Week 2015)},
+  Year                     = {2015},
+
+  Address                  = {Eindhoven, Netherlands},
+  Month                    = jun,
+  Pages                    = {18-19},
+
+  Abstract                 = {We present an experimental study of different strate-
+gies for triangulating polygons in parallel. As usual,
+we call three consecutive vertices of a polygon an ear if
+the triangle that is spanned by them is completely in-
+side the polygon. Extensive tests on thousands of sam-
+ple polygons indicate that about 50% of the vertices of
+most polygons form ears, which suggests that polygon-
+triangulation algorithms based on ear-clipping might be
+well-suited for parallelization. We discuss three differ-
+ent on-core approaches to parallelizing ear clipping and
+report on our experimental findings. Extensive tests
+show that the most promising method achieves an av-
+erage speedup of about 3 on a quad-core processor.},
+  File                     = {Eder, Held, Palfrader - Experiments on Parallel Polygon Triangulation Using Ear Clipping, CGWeek-YRF 2015 [EdeHP15b] - extended abstract.pdf:drafts/Eder, Held, Palfrader - Experiments on Parallel Polygon Triangulation Using Ear Clipping, CGWeek-YRF 2015 [EdeHP15b] - extended abstract.pdf:PDF},
+  Owner                    = {geder},
+  Timestamp                = {2015-02-04},
+  Www_links                = {extended abstract (PDF): https://geder.at/research/2015/Eder, Held, Palfrader - Experiments on Parallel Polygon Triangulation Using Ear Clipping, CGWeek-YRF 2015 [EdeHP15b] - extended abstract.pdf|
+YRF 2015: https://www.win.tue.nl/SoCG2015/?page_id=607},
+  Www_selected             = {1}
+}
+
+@Article{EdHe18a,
+  author       = {Günther Eder and Martin Held},
+  title        = {{C}omputing {P}ositively {W}eighted {S}traight {S}keletons of {S}imple {P}olygons based on {B}isector {A}rrangement},
+  journal      = IPL,
+  year         = {2018},
+  volume       = {132},
+  pages        = {28 - 32},
+  issn         = {0020-0190},
+  abstract     = {We extend the work by Huber and Held (IJCGA 2012)
+on straight-skeleton computation based on motorcycle graphs to positively
+weighted skeletons. Resorting to a line arrangement induced by the r reflex
+vertices of a simple n-vertex polygon P allows to compute the weighted straight
+skeleton of P in O(n² + r³/k + nr log n) time and O(n + kr) space, for an
+arbitrary positive integer k with 1 ≤ k ≤ r.},
+  doi          = {10.1016/j.ipl.2017.12.001},
+  file         = {2018
+Eder, Held - Computing Positively Weighted Straight Skeletons of Simple
+Polygons Using an Induced Line Arrangement, IPL 2018 [EdHe18a].pdf:drafts/2017 Eder, Held - Computing Positively Weighted Straight
+Skeletons of Simple Polygons Using a Bisector Arrangement, IPL 2018
+[EdHe18a].pdf:PDF},
+  keywords     = {Computational geometry, Weighted straight skeleton, Motorcycle graph, Wavefront propagation, Line arrangement},
+  owner        = {geder},
+  url          = {http://www.sciencedirect.com/science/article/pii/S0020019017302156},
+  www_links    = {Paper (PDF): https://geder.at/research/2018/2018 Eder, Held - Computing Positively Weighted Straight Skeletons of Simple Polygons Using an Induced Line Arrangement, IPL 2018 [EdHe18a].pdf},
+  www_selected = {1},
+}
+
+@Article{EdeHP18a,
+  author       = {Günther Eder and Martin Held and Peter Palfrader},
+  title        = {Parallelized ear clipping for the triangulation and constrained Delaunay triangulation of polygons},
+  journal      = {Computational Geometry},
+  year         = {2018},
+  volume       = {73},
+  pages        = {15-23},
+  issn         = {0925-7721},
+  abstract     = {We present an experimental study of strategies for triangulating polygons in parallel on multi-core machines, including the parallel computation of constrained Delaunay triangulations. As usual, we call three consecutive vertices of a (planar) polygon an ear if the triangle that is spanned by them is completely inside the polygon. Extensive tests on thousands of sample polygons indicate that about 50% of vertices of most polygons form ears. This experimental result suggests that polygon-triangulation algorithms based on ear clipping might be well-suited for parallelization. We discuss three different approaches to parallelizing ear clipping, and we present a parallel edge-flipping algorithm for converting a triangulation into a constrained Delaunay triangulation. All algorithms were implemented as part of Held's FIST framework. We report on our experimental findings, which show that the most promising method achieves an average speedup of 2–3 on a quad-core processor. In any case, our new triangulation code is faster than the sequential triangulation codes Triangle (by Shewchuk) and FIST. },
+  doi          = {10.1016/j.comgeo.2018.01.004},
+  keywords     = {Polygon triangulation, Constrained Delaunay triangulation (CDT), Parallelization, Multi-core, Ear-clipping },
+  url          = {https://www.sciencedirect.com/science/article/pii/S092577211830004X},
+  www_links    = {Paper (PDF): https://geder.at/research/2018/2018 Eder, Held, Palfrader - Parallelized ear clipping for the triangulation and constrained Delaunay triangulation of polygons, CG 2018 [EdeHP18a].pdf},
+  www_selected = {1},
+}
+
+@InProceedings{EdHe18b,
+  author       = {Günther Eder and Martin Held},
+  title        = {{W}eighted {V}oronoi {D}iagrams in the {L}$_\infty$-{N}orm},
+  booktitle    = Proc #{ 7th } # YRF #{ (CG Week 2018)},
+  year         = {2018},
+  address      = {Budapest, Hugary},
+  month        = jun,
+  abstract     = {We study Voronoi diagrams of n weighted points in the plane in the maximum norm. We establish
+a tight Θ(n²) worst-case combinatorial bound for such a Voronoi diagram and introduce an
+incremental construction algorithm that allows its computation in O(n² log n) time.},
+  owner        = {geder},
+  timestamp    = {2018-05-18},
+  www_links    = {extended abstract (PDF): https://geder.at/research/2018/2018 Eder, Held - Weighted Voronoi Diagrams in the L∞-Norm, YRF 2018 [EdHe18b].pdf | FF (PDF): https://geder.at/research/2018/YRF_FF_18.pdf | Slides (PDF): https://geder.at/research/2018/YRF_Slides_18.pdf},
+  www_selected = {1},
+}
+
+@InProceedings{EdeHP19a,
+  author       = {Günther Eder and Martin Held and Peter Palfrader},
+  title        = {{C}omputing the {S}traight {S}keleton of an {O}rthogonal {M}onotone {P}olygon in {L}inear {T}ime},
+  booktitle    = Proc #{ 35st } # EuroCG #{ (EuroCG 2019)},
+  year         = {2019},
+  address      = {Utrecht, Netherlands},
+  month        = mar,
+  abstract     = {We introduce a simple algorithm to construct the straight skeleton of an n-vertex orthogonal
+monotone polygon in optimal O(n) time and space.},
+  file         = {2019 Eder, Held, Palfrader - Computing the Straight Skeleton of an Orthogonal Monotone Polygon in Linear Time, EuroCG 2019 [EdHe19a].pdf:drafts/2019 Eder, Held, Palfrader - Computing the Straight Skeleton of an Orthogonal Monotone Polygon in Linear Time, EuroCG 2019 [EdHe19a] - extended abstract.pdf:PDF},
+  owner        = {geder},
+  timestamp    = {2019-03-11},
+  www_links    = {extended abstract (PDF): https://geder.at/research/2019/2019 Eder, Held, Palfrader - Computing the Straight Skeleton of an Orthogonal Monotone Polygon in Linear Time, EuroCG 2019 [EdHe19a].pdf| FF (PDF): https://geder.at/research/2019/2019 Eder, Held, Palfrader - Computing the Straight Skeleton of an Orthogonal Monotone Polygon in Linear Time, EuroCG 2019 [EdHe19a]-FF.pdf| Slides (PDF): https://geder.at/research/2019/2019 Eder, Held, Palfrader - Computing the Straight Skeleton of an Orthogonal Monotone Polygon in Linear Time, EuroCG 2019 [EdHe19a]-SLIDES.pdf| EuroCG 2019: http://www.eurocg2019.uu.nl},
+  www_selected = {1},
+}
+
+@article{EdeHP18b,
+author = {Eder, Günther and Held, Martin and Palfrader, Peter},
+title = {Min-/Max-Volume Roofs Induced by Bisector Graphs of Polygonal Footprints of Buildings},
+journal = {International Journal of Computational Geometry \& Applications},
+volume = {28},
+number = {04},
+pages = {309-340},
+year = {2018},
+doi = {10.1142/S0218195918500097},
+URL = {https://doi.org/10.1142/S0218195918500097},
+eprint = {https://doi.org/10.1142/S0218195918500097},
+abstract = { Piecewise-linear terrains (“roofs”) over simple polygons were first studied by Aichholzer et al. (J. UCS 1995) in their work on straight skeletons of polygons. We show how to construct a roof over the polygonal footprint of a building that has minimum or maximum volume among all roofs that drain water. Our algorithm for computing such a roof extends the standard plane-sweep approach known from the theory of straight skeletons by additional events. For both types of roofs our algorithm runs in 𝒪(n^3 log n) time for a simple polygon with n vertices. },
+  owner        = {geder},
+  timestamp    = {2019-04-13},
+  www_links    = {paper (PDF): https://geder.at/research/2018/2018 Eder, Held, Palfrader - Min-Max-Volume Roofs Induced by Bisector Graphs of Polygonal Footprints of Buildings, IJCGA 2018.pdf},
+  Www_selected = {1}
+}
+
+@Article{EdHe19a,
+  author       = {Eder, Günther and Held, Martin},
+  title        = {{W}eighted {V}oronoi {D}iagrams in the {M}aximum {N}orm},
+  journal      = {International Journal of Computational Geometry \& Applications},
+  year         = {2019},
+  volume       = {29},
+  number       = {03},
+  pages        = {239-250},
+  abstract     = {We consider multiplicatively weighted points, axis-aligned rectangular boxes and axis- aligned straight-line segments in the plane as input sites and study Voronoi diagrams of these sites in the maximum norm. For n weighted input sites we establish a tight Θ(n²) worst-case bound on the combinatorial complexity of their Voronoi diagram and introduce an incremental algorithm that allows its computation in O(n² log n) time. Our approach also yields a truly simple O(n log n) algorithm for solving the one-dimensional version of this problem, where all weighted sites lie on a line.},
+  doi          = {10.1142/S0218195919500079},
+  eprint       = {https://doi.org/10.1142/S0218195918500097},
+  owner        = {geder},
+  timestamp    = {2019-10-29},
+  url          = {https://doi.org/10.1142/S0218195918500097},
+  www_links    = {Paper (PDF): https://geder.at/research/2019/2019 Eder, Held - Weighted Voronoi Diagrams in the Maximum Norm, IJCGA.pdf},
+  www_selected = {1}
+}
+
+
+
+@Article{EdeHP19b,
+  author       = {Eder, Günther and Held, Martin and Palfrader, Peter},
+  title        = {{R}ecognizing {G}eometric {T}rees as {P}ositively {W}eighted {S}traight {S}keletons and {R}econstructing {T}heir {I}nput},
+  journal      = {International Journal of Computational Geometry \& Applications},
+  year         = {2019},
+  volume       = {29},
+  number       = {03},
+  pages        = {251-267},
+  abstract     = {We extend results by Biedl et al. (ISVD’13) on the recognition and reconstruction of straight skeletons: Given a geometric tree G, can we recognize whether G resembles a weighted straight skeleton S and, if so, can we reconstruct an appropriate polygonal input P and an appropriate positive weight function σ such that S(P, σ) = G? We show that a solution polygon P and a weight function σ can be found in O(n) time and space for a geometric tree G with n faces if at most one node of G has two incident edges that span an angle greater than π. In addition, we show that G implicitly encodes enough information such that all other weighted bisectors of any solution P can be obtained from G without explicitly computing P.},
+  doi          = {10.1142/S0218195919500080},
+  eprint       = {https://doi.org/10.1142/S0218195919500080},
+  owner        = {geder},
+  timestamp    = {2019-10-29},
+  url          = {https://doi.org/10.1142/S0218195919500080},
+  www_links    = {Paper (PDF): https://geder.at/research/2019/2019 Eder, Held, Palfrader - Recognizing Geometric Trees as Positively Weighted Straight Skeletons and Reconstructing Their Input, IJCGA.pdf},
+  www_selected = {1}
+}
+
+@MastersThesis{Eder14,
+  author   = {Günther Eder},
+  title    = {{P}arallel {T}riangulation of {P}olygons},
+  school   = {Univeristy of Salzburg},
+  year     = {2014},
+  month    = jul,
+  abstract = {In this work we review five different triangulation algorithms and present 
+two of our own. First, two well known algorithms are surveyed: 
+ear-clipping and monotone subdivision.
+Then, three constrained Delaunay triangulation algorithms are discussed in detail:
+the first uses a Fortune-like sweep-line approach, 
+the second uses a randomized incremental 
+construction method, and the third is constructing the triangulation 
+in parallel on the GPU. 
+
+We also present our two parallel ear-clipping
+methods. One is a divide and conquer approach where the simple input polygon is divided 
+in linear time. The other is a mark and cut extension which uses a sequential mark phase 
+and a parallel cut phase. Both are tested extensively and the results are discussed. 
+},
+  owner        = {geder},
+  timestamp    = {2019-12-05},
+  www_links    = { master thesis (PDF): https://geder.at/research/2014/Master\ Thesis\ -\ Parallel\ Triangulation\ of\ Polygons.pdf},
+  www_selected = {1},
+}
+
+@InProceedings{EdeHP20b,
+  author       = {Günther Eder and Martin Held and Peter Palfrader},
+  title        = {{E}xperimental {E}valuation of {S}traight {S}keleton {I}mplementations {B}ased on {E}xact {A}rithmetic},
+  booktitle    = Proc #{ 36th } # EuroCG #{ (EuroCG 2020)},
+  year         = {2020},
+  pages        = {40:1--8},
+  address      = {Würzburg, Germany},
+  month        = mar,
+  abstract     = {We present C++ implementations of two algorithms for computing straight
+skeletons in the plane, based on exact arithmetic.  One code, named \textsc{Surfer2},
+can handle multiplicatively weighted planar straight-line graphs (PSLGs)
+while our second code, \textsc{Monos}, is specifically targeted at monotone
+polygons.  Both codes are available on GitHub.  We sketch implementational
+and engineering details and discuss the results of an extensive performance
+evaluation in which we compared \textsc{Surfer2} and \textsc{Monos} to the straight-skeleton
+package included in CGAL.  Our tests provide ample evidence that both
+implementations can be expected to be faster and to consume significantly
+less memory than the CGAL code.},
+  owner        = {weasel},
+  timestamp    = {2020-02-24},
+  www_links    = {Paper (PDF): https://geder.at/research/2020/2020 - Experimental Evaluation of Straight Skeleton Implementations Based on Exact Arithmetic, EuroCG 2020.pdf | Book of Abstracts (PDF): https://geder.at/research/2020/2020 - Book of Abstracts, EuroCG 2020.pdf},
+  www_selected = {1},
+}
+
+@InProceedings{Ede&20a,
+  author       = {Günther Eder and Martin Held and Steinþór Jasonarson and Philipp Mayer and Peter Palfrader},
+  title        = {{O}n {G}enerating {P}olygons: {I}ntroducing the {S}alzburg {D}atabase},
+  booktitle    = Proc #{ 36th } # EuroCG #{ (EuroCG 2020)},
+  year         = {2020},
+  pages        = {75:1--7},
+  address      = {Würzburg, Germany},
+  month        = mar,
+  abstract     = {The Salzburg Database is a repository of polygonal areas of various classes
+and sizes, with and without holes. Positive
+weights are assigned to all edges of all polygons.
+We introduce this collection and briefly describe the generators that produced its polygons.
+The source codes for all generators as well as the polygons generated are publicly available.},
+  owner        = {weasel},
+  timestamp    = {2020-02-24},
+  www_links    = {Paper (PDF): https://geder.at/research/2020/2020 - On Generating Polygons: Introducing the Salzburg Database, EuroCG 2020.pdf | Book of Abstracts (PDF): https://geder.at/research/2020/2020 - Book of Abstracts, EuroCG 2020.pdf | Presentation (YouTube): https://youtu.be/3nYDjg_M95E |  Slides (PDF): https://geder.at/research/2020/2020 - On Generating Polygons: Introducing the Salzburg Database, EuroCG 2020-pres.pdf | FF (PDF): https://geder.at/research/2020/2020 - FF_83, EuroCG 2020.pdf},
+  www_selected = {1},
+}
+
+@InProceedings{EdeHP20a,
+  author    = {Günther Eder and Martin Held and Peter Palfrader},
+  title     = {{O}n {I}mplementing {S}traight {S}keletons: {C}hallenges and {E}xperiences},
+  booktitle = Proc #{ 36th } # SCG #{ (SoCG 2020)},
+  pages =	{38:1--38:17},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-143-6},
+  ISSN =	{1868-8969},
+  year =	{2020},
+  volume =	{164},
+  editor =	{Sergio Cabello and Danny Z. Chen},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum für Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/opus/volltexte/2020/12196},
+  URN =		{urn:nbn:de:0030-drops-121964},
+  doi =		{10.4230/LIPIcs.SoCG.2020.38},
+  annote =	{Keywords: weighted straight skeleton, implementation, algorithm engineering, experiments, Cgal, Core},
+  abstract  = {We present C++ implementations of two algorithms for computing straight
+skeletons in the plane, based on exact arithmetic. One code, named
+\textsc{Surfer2}, can handle multiplicatively weighted planar straight-line graphs
+(PSLGs) while our second code, \textsc{Monos}, is specifically targeted at monotone
+polygons.  Both codes are available on GitHub. We discuss algorithmic as
+well as implementational and engineering details of both codes.
+Furthermore, we present the results of an extensive performance evaluation
+in which we compared \textsc{Surfer2} and \textsc{Monos} to the straight-skeleton package
+included in CGAL. It is not surprising that our special-purpose code \textsc{Monos}
+outperforms CGAL's straight-skeleton implementation. But our tests provide
+ample evidence that also \textsc{Surfer2} can be expected to be faster and to
+consume significantly less memory than the CGAL code. And, of course,
+\textsc{Surfer2} is more versatile because it can handle multiplicative weights and
+general PSLGs as input.  Thus, \textsc{Surfer2} currently is the fastest and most
+general straight-skeleton code available.},
+  owner     = {gue},
+  timestamp = {2020-06-08},
+  www_links    = {Paper (PDF): https://geder.at/research/2020/2020 - On Implementing Straight Skeletons Challenges and Experiences.pdf},
+  www_selected = {1},
+}
+
+@InProceedings{EdeHP20c,
+  author    = {Günther Eder and Martin Held and Peter Palfrader},
+  title     = {{S}tep-by-{S}tep {S}traight {S}keletons},
+  booktitle =	{36th International Symposium on Computational Geometry (SoCG 2020)},
+  pages =	{76:1--76:4},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-143-6},
+  ISSN =	{1868-8969},
+  year =	{2020},
+  volume =	{164},
+  editor =	{Sergio Cabello and Danny Z. Chen},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum für Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/opus/volltexte/2020/12234},
+  URN =		{urn:nbn:de:0030-drops-122343},
+  doi =		{10.4230/LIPIcs.SoCG.2020.76},
+  annote =	{Keywords: weighted straight skeleton, implementation, visualization, graphical user interface, education},
+  abstract  = {We present two software packages for computating straight skeletons: \textsc{Monos},
+our implementation of an algorithm by Biedl et al.~(2015), computes the
+straight skeleton of a monotone input polygon, and \textsc{Surfer2} implements a
+generalization of an algorithm by Aichholzer and Aurenhammer~(1998) to
+handle multiplicatively-weighted planar straight-line graphs as input.
+The graphical user interfaces that ship with our codes support step-by-step
+computations, where each event can be investigated and studied by the user.
+This makes them a canonical candidate for educational purposes and detailed
+event analyses.  Both codes are freely available on GitHub.},
+  owner     = {gue},
+  timestamp = {2020-06-08},
+  www_links = {Paper (PDF): https://geder.at/research/2020/2020 - Step-by-Step Straight Skeleton.pdf},
+  www_selected = {1},
+}
+
+@article{Ede&22a, 
+    author = {Eder, Günther and Held, Martin and Jasonarson, Steinþór and Mayer, Philipp and Palfrader, Peter}, 
+    title = {{2}-{O}pt {M}oves and {F}lips for {A}rea-{O}ptimal {P}olygonizations}, 
+    year = {2022}, 
+    issue_date = {December 2022}, 
+    publisher = {Association for Computing Machinery}, 
+    address = {New York, NY, USA}, 
+    volume = {27}, 
+    issn = {1084-6654}, 
+    url = {https://doi.org/10.1145/3500913}, 
+    doi = {10.1145/3500913}, 
+    abstract = {Our work on the Computational Geometry Challenge 2019 on area-optimal polygonizations is based on two key components: (1) sampling the search space to obtain initial polygonizations and (2) optimizing such a polygonizations. Among other heuristics for obtaining polygonizations for a given set P of input points, we discuss how to combine 2-opt moves with a line sweep to convert an initial random (non-simple) polygon whose vertices are given by P into a polygonization P. The actual optimization relies on a constrained triangulation of the interior and exterior of a polygonization to speed-up local modifications of the polygonization to increase or decrease its area.}, 
+    journal = JEA,
+    month = {mar}, 
+    articleno = {2.7}, 
+    numpages = {12}, 
+    keywords = {exact algorithms, Computational geometry, polygonization, area optimization, geometric optimization, algorithm engineering}, 
+    www_links = {Paper (PDF): https://geder.at/research/2022/2022\ -\ 2-Opt\ Moves\ and\ Flips\ for\ Area-optimal\ Polygonizations.pdf },
+    www_selected = {1},
+}
+    
+@article{Ede&22b,
+    author = {Günther Eder and Martin Held and Stefan {de Lorenzo} and Peter Palfrader},
+    title = {On the recognition and reconstruction of weighted {V}oronoi diagrams and bisector graphs},
+    journal = {Computational Geometry},
+    volume = {109},
+    pages = {101935},
+    year = {2022},
+    issn = {0925-7721},
+    doi = {https://doi.org/10.1016/j.comgeo.2022.101935},
+    url = {https://www.sciencedirect.com/science/article/pii/s0925772122000785},
+    keywords = {voronoi diagram, bisector graph, recognition, reconstruction, multiplicative weight},
+    abstract = {a weighted bisector graph is a geometric graph whose faces are bounded by edges that are portions of multiplicatively weighted bisectors of pairs of (point) sites such that each of its faces is defined by exactly one site. a prominent example of a bisector graph is the multiplicatively weighted voronoi diagram of a finite set of points which induces a tessellation of the plane into voronoi faces bounded by circular arcs and straight-line segments. several algorithms for computing various types of bisector graphs are known. in this paper we reverse the problem: given a partition g of the plane into faces, find a set of points and suitable weights such that g is a bisector graph of the weighted points, if a solution exists. if g is a graph that is regular of degree three then we can decide in o(m) time whether it is a bisector graph, where m denotes the combinatorial complexity of g. in the same time we can identify up to two candidate solutions such that g could be their multiplicatively weighted voronoi diagram. additionally, we show that it is possible to recognize g as a multiplicatively weighted voronoi diagram and find all possible solutions in o(mlog⁡m) time if g is given by a set of disconnected lines and circles},
+    www_links = {paper (pdf): https://geder.at/research/2022/2022\ -\ On\ the\ recognition\ and\ reconstruction\ of\ weighted\ Voronoi\ diagrams\ and\ bisector\ graphs.pdf},
+    www_selected = {1},
+}
+    
+@Comment{jabref-meta: databaseType:bibtex;}
