@@ -1,3 +1,3 @@
 # bibliography
 
-bib file of authered/co-authered publications
+bib file of authored/co-authored publications
